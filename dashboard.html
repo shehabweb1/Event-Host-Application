@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container dashboard">
+        <h3>Choose Event</h3>
+
+        <div class="city-bar">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="BLVD RUH CITY" readonly>
+            <i class="fa-solid fa-chevron-right"></i>
+        </div>
+
+        <div class="ticket-dashboard">
+            <div class="list-ticket">
+                <h5>Listed Tickets</h5>
+                <h4>1000</h4>
+            </div>
+            <div class="ticket-sold">
+                <h5>Tickets Sold</h5>
+                <h4>657</h4>
+            </div>
+            <div class="relist-ticket">
+                <h5>Relisted Tickets</h5>
+                <h4>12</h4>
+            </div>
+            <div class="ticket-used">
+                <h5>Tickets Used</h5>
+                <h4>211</h4>
+            </div>
+        </div>
+
+        <div class="ticket-bar">
+            <i class="fa-solid fa-ticket-simple"></i>
+            <input type="text" placeholder="Ticket" readonly>
+            <i class="fa-solid fa-chevron-right"></i>
+        </div>
+
+        <ul class="ticket-data-table">
+            <li class="list-data">
+                <a href="ticket-record.html" class="main-data">
+                    <i class="fa-solid fa-ticket-simple"></i>
+                    <div class="ticket-number">
+                        <p>#1001</p>
+                        <span>SAR 120</span>
+                    </div>
+                    <div class="ticket-details">
+                        <p>BLVD RUH CITY</p>
+                        <span>#1186480321</span>
+                    </div>
+                </a>
+            </li>
+            <li class="list-data">
+                <a href="ticket-record.html" class="main-data">
+                    <i class="fa-solid fa-ticket-simple"></i>
+                    <div class="ticket-number">
+                        <p>#1001</p>
+                        <span>SAR 120</span>
+                    </div>
+                    <div class="ticket-details">
+                        <p>BLVD RUH CITY</p>
+                        <span>#1186480321</span>
+                    </div>
+                </a>
+            </li>
+            <li class="list-data">
+                <a href="ticket-record.html" class="main-data">
+                    <i class="fa-solid fa-ticket-simple"></i>
+                    <div class="ticket-number">
+                        <p>#1001</p>
+                        <span>SAR 120</span>
+                    </div>
+                    <div class="ticket-details">
+                        <p>BLVD RUH CITY</p>
+                        <span>#1186480321</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+    <footer class="dashboard-footer">
+        <a href="dashboard.html" class="active">
+            <i class="fa-solid fa-house"></i> <span>Dashboard</span>
+        </a>
+        <a href="requests.html"><i class="fa-regular fa-envelope"></i></a>
+    </footer>
+</body>
+
+</html>
